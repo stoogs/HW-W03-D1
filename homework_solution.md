@@ -53,3 +53,6 @@ INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 20
 
 1.  Research how to delete multiple entries from your table in a single command.
 DELETE FROM movies WHERE id in (1, 5,8);
+DELETE FROM movies WHERE id BETWEEN 8 AND 13;
+LIKE '%.....%'.  % = wildcard   
+* = columns
